@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+   opcserver:
+      build:
+         context: ./OPC-UA-Server
+      ports:
+         - "4840:4840"
+   gateway:
+      build:
+         context: ./OPC-UA-Gateway

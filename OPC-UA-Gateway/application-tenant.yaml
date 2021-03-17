@@ -1,0 +1,10 @@
+C8Y:
+    baseUrl: https://demo-mgmt.adamos-dev.com/
+gateway:
+    bootstrap:
+        tenantId: t48151261
+    identifier: OPCUA_SERVER_DEMO
+    name: Adamos Maschienenbau Gateway
+    db:
+# The gateway uses the local database to store platform credentials and local cache. This parameter shows the location in which the local data should be stored.
+        baseDir: ./data
